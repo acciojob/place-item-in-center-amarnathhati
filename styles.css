@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+body {
+            margin: 0;
+            padding: 0;
+        }
+        .holder {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* 100% of viewport height */
+        }
+        .item {
+            background-color: lightblue;
+            padding: 20px;
+            margin: 10px;
+        }
